@@ -1,0 +1,221 @@
+/* home */
+.homeIncomeBox{
+     -fx-border-width: 2px;     /* Border width */
+     -fx-background-color: white;
+ 	-fx-padding: 15px; /* Padding values can be adjusted as needed */
+ 	    -fx-border-radius: 6px; /* Border radius for the border, if needed */
+ 	    -fx-background-radius:6px;
+ }
+ 
+.homeIncomeBox:hover {
+    -fx-background-color: lightblue;
+}
+ .landingHeading {
+     -fx-font-size: 30px; 
+  
+ }
+ 
+ .landingDesc {
+     -fx-alignment: center; /* Center the text vertically */
+ 
+ }
+ 
+ .landingParagraph {
+     -fx-font-size: 20px; 
+	 -fx-font-style: italic;
+     
+ }
+ 
+
+ .income{
+    -fx-text-fill: green;
+    
+ }
+
+ .outcome{
+    -fx-text-fill: red;
+}
+
+.header {
+-fx-padding:40px;
+    -fx-background-color: rgba(56, 142, 60, 0.4); /* Background color with 30% opacity */
+    -fx-background-radius: 6px; /* Border radius */
+    -fx-border-radius: 6px; /* Border radius for the border, if needed */
+}
+
+.goalBar {
+     -fx-alignment: center;
+}
+
+.goalBar > TextField {
+	-fx-focus-color: green; 
+    -fx-padding: 10px; 
+    -fx-border-radius: 20px;
+    -fx-prompt-text-fill: green; 
+}
+
+.goalBar > Label {
+    -fx-font-size: 14px; /* Change the font size to 16 pixels */
+    -fx-font-color:white;
+        -fx-text-fill: white; /* Change the text color to white */
+    
+}
+
+.homeRecord {
+-fx-spacing: 20px;
+ -fx-padding: 10px; /* Padding for the HBox (adjust as needed) */
+}
+
+/* add record */
+.addRecordDisplay {
+   
+    -fx-content-display: center;
+  }
+ 
+
+
+.aboutHeading{
+   -fx-font-size:26px;
+}
+
+.aboutVBox {
+    -fx-pref-width: 80%; /* Set the width to 80% */
+    -fx-alignment: center; /* Center the content */
+    
+}
+
+.consultantName {
+      -fx-font-size:15px;
+}
+.consultant {
+
+}
+
+.row {
+  -fx-padding:15px;
+  -fx-background-color: white;
+  -fx-border-radius: 6px; /* Border radius for the border, if needed */
+  
+
+}
+
+/* */
+/* Styling for the navbar */
+.navbar {
+     -fx-padding: 10px;
+}
+
+.navbar Button {
+    -fx-font-size: 16px;
+    -fx-background-color: transparent;
+     -fx-alignment: center;
+    -fx-padding: 8px 12px;
+    -fx-border-width: 1px;
+    -fx-cursor: hand;
+    
+}
+
+.navbar Button:hover {
+    -fx-background-color: #2e7d32; /* Slightly darker green on hover */
+    -fx-text-fill: #ecf0f1;
+}
+
+/* Styling for the homeHeader */
+.homeHeader {
+    -fx-padding: 15px;
+    -fx-background-color: rgba(76, 175, 80, 0.4); /* A slightly brighter shade of green for the homeHeader */
+    -fx-background-radius: 6px;
+    -fx-border-radius: 6px;
+}
+
+
+/* Styling for the homeHeader */
+.homeHeader {
+    -fx-padding: 15px;
+    -fx-background-color: rgba(56, 142, 60, 0.4);
+    -fx-background-radius: 6px;
+    -fx-border-radius: 6px;
+}
+
+
+
+
+
+/* reusable css class */
+/* don't forget to add adding, paragraph, etc.*/
+
+.container {
+    -fx-background-color: #f5f5f5;
+    -fx-padding: 30 50 50 50; /* top right bottom left */
+    -fx-spacing: 10;
+    -fx-font-family: Arial;
+}
+
+ 
+.btn{
+    -fx-text-fill: white;  
+    -fx-background-color: green;
+   	-fx-padding: 10px;
+    -fx-font-weight: bold; 
+    -fx-min-width: 150px; 
+    -fx-font-size: 15px;
+    -fx-max-width: 300px; 
+    -fx-border-style: none;
+ }
+ 
+.btn-round{
+	 -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+}
+
+.btn-round-sm{
+	 -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.btn-sm {
+    -fx-text-fill: white;  
+    -fx-background-color: green;
+    -fx-padding: 4px; 
+    -fx-font-weight: normal;
+    -fx-min-width: 100px; 
+    -fx-font-size: 12px; 
+    -fx-max-width: 200px; 
+    -fx-border-style: none;
+}
+
+.btn-outline{
+-fx-background-color: white;
+    -fx-text-fill: green;
+        -fx-border-color: green;  
+
+}
+    
+/* ini bahaya nih */
+.input{
+	-fx-focus-color: green; 
+	-fx-text-box-border: green; 
+    -fx-padding: 10px; 
+    -fx-min-width: 150px;
+    -fx-border-radius: 20px;
+    -fx-max-width: 350px; 
+    -fx-prompt-text-fill: green; 
+}
+
+
+
+.btn-outline:hover {
+    -fx-background-color: #28a745; /* Background color on hover */
+    -fx-text-fill: white; /* Text color on hover */
+}
+
+.btn-outline:pressed {
+    -fx-background-color: #218838; /* Background color when pressed */
+    -fx-text-fill: white; /* Text color when pressed */
+}
+    
+     
+
+
+
+ 
